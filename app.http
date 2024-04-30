@@ -1,0 +1,27 @@
+GET http://localhost:3000/tasks
+
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json 
+
+{   
+    "title" :"NewYark",
+    "description":"Beautifull city",
+    "status":"I will visit that place soon."
+}
+
+####
+
+PUT http://localhost:3000/tasks/11
+Content-Type: application/json 
+
+
+{
+    "title" :"USA",
+    "description":"Beautifull Country",
+    "status":"I will visit that place soon."
+}
+
+####
+
+DELETE http://localhost:3000/tasks/9
